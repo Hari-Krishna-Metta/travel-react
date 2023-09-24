@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  font-family: "Poppins","sans-serif";
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  font-weight: bold;
+  border: 7px dashed blue;
+  padding: 1vh 5vw;
+  border-radius: 10px;
+}
+.tours {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.card {
+  width: 400px;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+.image {
+  width: 380px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  padding: 10px;
+}
+.read-more {
+  color: rgb(68, 131, 233);
+  cursor: pointer;
+}
+.btn {
+  margin-top: 18px;
+  padding: 10px 80px;
+  border: 1px solid #b4161b;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: red;
+  color: white;
+  transition: all 0.2s;
+}
